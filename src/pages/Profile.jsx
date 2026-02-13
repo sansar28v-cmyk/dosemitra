@@ -37,12 +37,12 @@ const Profile = () => {
                     { label: 'Version', value: '2.1.0' },
                     { label: 'Build', value: 'Mobile Release' },
                     { label: 'Data Saver', value: 'Enabled' },
-                    { label: 'Privacy Policy', value: 'dosemitra.com/privacy' }
+                    { label: 'Privacy Policy', value: 'Coming Soon' }
                 ]
             });
             setShowModal(true);
         } else {
-            console.log(`Clicked ${feature}`);
+            // console.log(`Clicked ${feature}`);
             alert(`${feature} feature coming soon!`);
         }
     };
