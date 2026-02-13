@@ -39,7 +39,7 @@ jobs:
       - name: Build Debug APK
         uses: gradle/gradle-build-action@v3
         with:
-          gradle-version: wrapper
+          gradle-version: 8.5
           arguments: assembleDebug
           build-root-directory: android
 
